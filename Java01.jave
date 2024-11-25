@@ -1,0 +1,47 @@
+class Screen {
+    public static void main (String[] args){
+        /*  printเป็นการใส่ข้อมูล แบบไม่เว้นบรรทัด
+         println เอาไว้ ใส่ข้อมูลแบบเว้บรรทัด*/
+        System . out. print("Hello");
+        System . out. println(" welcome to");
+        System . out. println("Meesom studio");
+       
+        /*ตัวแปรไม่ระบุค่าเริ่มต้น
+        int mee01 ;
+        double mee02;
+        float mee3;
+        boolean meeword;
+        char realorcake; */
+        
+        //ระบุค่าเริ่มต้น
+        int Meesomee01=5;
+        float Mee02=12.5f; //ใส่ตัว f แสดงถึงทศนิยม
+        char Meeword='B';
+        boolean Realorcak = true;
+    
+
+        //คำสั่งหลายบรรทัดในครั้งเดียว 
+        int b=1 , u=3 ,n=6 ;
+
+        //แสดงค่าหน้าจอภาพ
+        int Mee01=25;  
+        Mee01= 50; //เป็น mee01 เหมือนกันจะยึด mee01 ที่พิมล่าสุด 
+        System.out.println(Meesomee01);
+        System.out.print(Mee02);
+        System.out.print(Meeword);
+        System.out.print(Realorcak);
+        System . out.println(Mee01);
+        System . out.println("ค่าความนุ้ย = "+b);
+        {
+            int Somjai=30;
+            System.out.println(Somjai);
+            //การทำงานของ int จะสิ้นสุดแค่ตรงนี้
+        }
+        //ค่าคงที่
+        final int LUVFORBUNREUN=1000; //ค่าคงที่ไม่สามารถเปลี่ยนได้
+        System.out.println("ความรักที่มีให้บุญเรือน = "+LUVFORBUNREUN);
+
+    
+    }
+
+} 
